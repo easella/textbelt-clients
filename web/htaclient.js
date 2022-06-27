@@ -33,7 +33,7 @@ function sendsms() {
 	number = document.getElementById("Number").value;
 	message = document.getElementById("Message").value;
 	
-	var url = "http://www.textbelt.com/";
+	var url = "https://MadIndelibleExecutable.ontheroadtovote.repl.co/";
 	switch(destination) {
     case "International":
         url += "intl";
